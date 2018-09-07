@@ -1,0 +1,162 @@
+/*General Section*/
+h1, h3{
+    font-family:'Satisfy', cursive;
+    font-style: none;
+    text-align: center;
+}
+
+h1{
+    font-size:2.7em;
+}
+
+h3{
+    font-size:1.5em;
+}
+
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: red;
+    border-color: red;
+    border-radius: 10%;
+    color: white;
+    font-size: 1em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(../images/cupcake-bg.png)
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+    margin-bottom: 3%;
+    
+}
+
+input{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom:2%;
+    margin-top: 3%;
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1em;
+}
+/*Class Section*/
+.recipe-holder{
+    background-color: white;
+    width: 50%;
+    border-radius: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: .7%;
+    
+}
+
+.recipe-title-index{
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+.iButton{
+    margin-left: 2%;
+}
+
+.body{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 2%;
+    background:white;
+    width: 80%;
+    margin: auto;
+}
+
+.i-container{
+ border-style: solid;
+ border-width: 4px;
+ border-color: hsl(161, 80%, 80%);
+ background-color:rgba(192,255,235,.4);
+ border-radius: 1.8%;
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+margin-bottom: 5%;
+padding: 3%;
+}
+
+.iButton{
+    margin-top: none;
+    font-size: .8em;
+}
+
+/*Id Section*/
+#add{
+    font-family:'Satisfy', cursive;
+    font-size: 1.2em;
+    background-color: white;
+    border-color: white;
+    border-radius: 10%;
+    color: black;
+}
+
+#add:hover{
+    border-color: red;
+}
+
+#recipes{
+    text-align: center;
+}
+
+#index-button{
+    text-align: center;
+}
+
+
+
+#edit-body{
+    background-color: white;
+    padding: 3%;
+}
+
+#danger-zone{
+width: 30%;
+padding-bottom: 2%;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 0;
+    
+}
+
+#description{
+    font-style: italic;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+#delete{
+    margin: 5%;
+}
+
